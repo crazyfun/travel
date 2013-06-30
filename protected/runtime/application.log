@@ -1351,3 +1351,871 @@ in /home/wwwroot/travel/protected/modules/information/controllers/DefaultControl
 2013/06/30 16:10:05 [trace] [system.CModule] Loading "assetManager" application component
 in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
 in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "log" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "request" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "urlManager" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.base.CModule] Loading "information" module
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "db" application component
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "cache" application component
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_information`
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_information`
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{information}}" to cache
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Information.findByPk()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_members`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_members`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{members}}" to cache
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_information_category`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_information_category`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{information_category}}" to cache
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`model_type` AS `t0_c1`, `t`.`type_id` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`information_image` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`short_content` AS `t0_c6`, `t`.`views` AS `t0_c7`, `t`.`sort` AS `t0_c8`, `t`.`create_id` AS `t0_c9`, `t`.`create_time` AS `t0_c10`, `User`.`id` AS `t1_c0`, `User`.`user_salt` AS `t1_c1`, `User`.`user_password` AS `t1_c2`, `User`.`user_login` AS `t1_c3`, `User`.`avater` AS `t1_c4`, `User`.`real_name` AS `t1_c5`, `User`.`genter` AS `t1_c6`, `User`.`credits` AS `t1_c7`, `User`.`conpon` AS `t1_c8`, `User`.`user_email` AS `t1_c9`, `User`.`birthday` AS `t1_c10`, `User`.`code` AS `t1_c11`, `User`.`cell_phone` AS `t1_c12`, `User`.`address` AS `t1_c13`, `User`.`permissions` AS `t1_c14`, `User`.`invite_code` AS `t1_c15`, `User`.`station_id` AS `t1_c16`, `User`.`admin_status` AS `t1_c17`, `User`.`create_id` AS `t1_c18`, `User`.`create_time` AS `t1_c19`, `Type`.`id` AS `t2_c0`, `Type`.`model_type` AS `t2_c1`, `Type`.`parent_id` AS `t2_c2`, `Type`.`name` AS `t2_c3`, `Type`.`sort` AS `t2_c4`, `Type`.`create_id` AS `t2_c5`, `Type`.`create_time` AS `t2_c6` FROM `tr_information` `t`  LEFT OUTER JOIN `tr_members` `User` ON (`t`.`create_id`=`User`.`id`)  LEFT OUTER JOIN `tr_information_category` `Type` ON (`t`.`type_id`=`Type`.`id`)  WHERE (`t`.`id`='210')
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Information.update()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Information.updateByPk()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tr_information` SET `id`=:yp0, `model_type`=:yp1, `type_id`=:yp2, `title`=:yp3, `information_image`=:yp4, `content`=:yp5, `short_content`=:yp6, `views`=:yp7, `sort`=:yp8, `create_id`=:yp9, `create_time`=:yp10 WHERE `tr_information`.`id`='210'
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "session" application component
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM dbsession WHERE expire<1372598090
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: 
+SELECT data FROM dbsession
+WHERE expire>1372598090 AND id=:id
+
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{region}}" to cache
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{sys_config}}" to cache
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] SysConfig.findAll()
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_sys_config` `t`
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "themeManager" application component
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (16)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in /home/wwwroot/travel/protected/models/Information.php (245)
+in /home/wwwroot/travel/protected/components/widgets/default/NewestInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (19)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_information` `t` WHERE model_type=:model_type ORDER BY create_time DESC LIMIT 10
+in /home/wwwroot/travel/protected/models/Information.php (245)
+in /home/wwwroot/travel/protected/components/widgets/default/NewestInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (19)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.NewestInformation_284..information/default/detail...." to cache
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (20)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{advertising}}" to cache
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Advertising_11_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in /home/wwwroot/travel/protected/models/Information.php (259)
+in /home/wwwroot/travel/protected/components/widgets/default/HotInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (30)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_information` `t` WHERE model_type=:model_type ORDER BY views DESC LIMIT 10
+in /home/wwwroot/travel/protected/models/Information.php (259)
+in /home/wwwroot/travel/protected/components/widgets/default/HotInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (30)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.HotInformation_284..information/default/detail...." to cache
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (31)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "clientScript" application component
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (10)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "user" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (23)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "securityManager" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (23)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Advertising_1_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.WebMenu_284..information/default/detail...." to cache
+in /home/wwwroot/travel/themes/default/views/main/header.php (68)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (124)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink}}" to cache
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink_type}}" to cache
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] FriendlinkType.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink_type` `t`
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/06/30 21:14:50 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.FriendLinkWidget_284..information/default/detail...." to cache
+in /home/wwwroot/travel/themes/default/views/main/footer.php (13)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/06/30 21:14:50 [trace] [system.CModule] Loading "assetManager" application component
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "log" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "request" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "urlManager" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/wwwroot/travel/index.php (14)
+2013/06/30 22:47:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "LICENSE"。' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('LICENSE')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/travel/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/LICENSE
+---
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "errorHandler" application component
+2013/06/30 22:47:00 [trace] [system.web.filters.CFilterChain] Running filter ErrorController.filteraccessControl()
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "user" application component
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "session" application component
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "db" application component
+2013/06/30 22:47:00 [trace] [system.db.CDbConnection] Opening DB connection
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM dbsession WHERE expire<1372603620
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: 
+SELECT data FROM dbsession
+WHERE expire>1372603620 AND id=:id
+
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "securityManager" application component
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "cache" application component
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{sys_config}}" to cache
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] SysConfig.findAll()
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_sys_config` `t`
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "themeManager" application component
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (12)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "clientScript" application component
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{region}}" to cache
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{advertising}}" to cache
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "Advertising_1_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (65)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_members`
+in /home/wwwroot/travel/protected/components/widgets/default/views/web_menu.php (35)
+in /home/wwwroot/travel/protected/components/widgets/default/WebMenu.php (15)
+in /home/wwwroot/travel/themes/default/views/main/header.php (67)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_members`
+in /home/wwwroot/travel/protected/components/widgets/default/views/web_menu.php (35)
+in /home/wwwroot/travel/protected/components/widgets/default/WebMenu.php (15)
+in /home/wwwroot/travel/themes/default/views/main/header.php (67)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{members}}" to cache
+in /home/wwwroot/travel/protected/components/widgets/default/views/web_menu.php (35)
+in /home/wwwroot/travel/protected/components/widgets/default/WebMenu.php (15)
+in /home/wwwroot/travel/themes/default/views/main/header.php (67)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.WebMenu_284..error/error404...." to cache
+in /home/wwwroot/travel/themes/default/views/main/header.php (68)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink}}" to cache
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink_type}}" to cache
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] FriendlinkType.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink_type` `t`
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/06/30 22:47:00 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.FriendLinkWidget_284..error/error404...." to cache
+in /home/wwwroot/travel/themes/default/views/main/footer.php (13)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/06/30 22:47:00 [trace] [system.CModule] Loading "assetManager" application component
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (12)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "log" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "request" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "urlManager" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.base.CModule] Loading "information" module
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "db" application component
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "cache" application component
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_information`
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_information`
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{information}}" to cache
+in /home/wwwroot/travel/protected/models/Information.php (25)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (69)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Information.findByPk()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_members`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_members`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{members}}" to cache
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_information_category`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_information_category`
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{information_category}}" to cache
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`model_type` AS `t0_c1`, `t`.`type_id` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`information_image` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`short_content` AS `t0_c6`, `t`.`views` AS `t0_c7`, `t`.`sort` AS `t0_c8`, `t`.`create_id` AS `t0_c9`, `t`.`create_time` AS `t0_c10`, `User`.`id` AS `t1_c0`, `User`.`user_salt` AS `t1_c1`, `User`.`user_password` AS `t1_c2`, `User`.`user_login` AS `t1_c3`, `User`.`avater` AS `t1_c4`, `User`.`real_name` AS `t1_c5`, `User`.`genter` AS `t1_c6`, `User`.`credits` AS `t1_c7`, `User`.`conpon` AS `t1_c8`, `User`.`user_email` AS `t1_c9`, `User`.`birthday` AS `t1_c10`, `User`.`code` AS `t1_c11`, `User`.`cell_phone` AS `t1_c12`, `User`.`address` AS `t1_c13`, `User`.`permissions` AS `t1_c14`, `User`.`invite_code` AS `t1_c15`, `User`.`station_id` AS `t1_c16`, `User`.`admin_status` AS `t1_c17`, `User`.`create_id` AS `t1_c18`, `User`.`create_time` AS `t1_c19`, `Type`.`id` AS `t2_c0`, `Type`.`model_type` AS `t2_c1`, `Type`.`parent_id` AS `t2_c2`, `Type`.`name` AS `t2_c3`, `Type`.`sort` AS `t2_c4`, `Type`.`create_id` AS `t2_c5`, `Type`.`create_time` AS `t2_c6` FROM `tr_information` `t`  LEFT OUTER JOIN `tr_members` `User` ON (`t`.`create_id`=`User`.`id`)  LEFT OUTER JOIN `tr_information_category` `Type` ON (`t`.`type_id`=`Type`.`id`)  WHERE (`t`.`id`='9')
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (70)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Information.update()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Information.updateByPk()
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tr_information` SET `id`=:yp0, `model_type`=:yp1, `type_id`=:yp2, `title`=:yp3, `information_image`=:yp4, `content`=:yp5, `short_content`=:yp6, `views`=:yp7, `sort`=:yp8, `create_id`=:yp9, `create_time`=:yp10 WHERE `tr_information`.`id`='9'
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (72)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "session" application component
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM dbsession WHERE expire<1372610217
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: 
+SELECT data FROM dbsession
+WHERE expire>1372610217 AND id=:id
+
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (228)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (73)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_region`
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{region}}" to cache
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_sys_config`
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{sys_config}}" to cache
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (77)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] SysConfig.findAll()
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_sys_config` `t`
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "themeManager" application component
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (16)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in /home/wwwroot/travel/protected/models/Information.php (245)
+in /home/wwwroot/travel/protected/components/widgets/default/NewestInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (19)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_information` `t` WHERE model_type=:model_type ORDER BY create_time DESC LIMIT 10
+in /home/wwwroot/travel/protected/models/Information.php (245)
+in /home/wwwroot/travel/protected/components/widgets/default/NewestInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (19)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.NewestInformation_284..information/default/detail...." to cache
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (20)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_advertising`
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{advertising}}" to cache
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Advertising_11_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (24)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Information.findAll()
+in /home/wwwroot/travel/protected/models/Information.php (259)
+in /home/wwwroot/travel/protected/components/widgets/default/HotInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (30)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_information` `t` WHERE model_type=:model_type ORDER BY views DESC LIMIT 10
+in /home/wwwroot/travel/protected/models/Information.php (259)
+in /home/wwwroot/travel/protected/components/widgets/default/HotInformation.php (11)
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (30)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.HotInformation_284..information/default/detail...." to cache
+in /home/wwwroot/travel/protected/modules/information/views/default/detail.php (31)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "clientScript" application component
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (10)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "user" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (23)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "securityManager" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (23)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Advertising_1_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.WebMenu_284..information/default/detail...." to cache
+in /home/wwwroot/travel/themes/default/views/main/header.php (68)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (124)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (22)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink`
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink}}" to cache
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tr_friendlink_type`
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink_type}}" to cache
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] FriendlinkType.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink_type` `t`
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+2013/07/01 00:36:57 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.FriendLinkWidget_284..information/default/detail...." to cache
+in /home/wwwroot/travel/themes/default/views/main/footer.php (13)
+in /home/wwwroot/travel/protected/modules/information/views/layouts/main.php (26)
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+2013/07/01 00:36:57 [trace] [system.CModule] Loading "assetManager" application component
+in /home/wwwroot/travel/protected/modules/information/controllers/DefaultController.php (79)
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "log" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "request" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "urlManager" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/wwwroot/travel/index.php (14)
+2013/07/01 00:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "demos/phonebook/index.php"。' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('demos/phonebook...')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/travel/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/demos/phonebook/index.php?r=site/phonebook
+---
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "errorHandler" application component
+2013/07/01 00:59:29 [trace] [system.web.filters.CFilterChain] Running filter ErrorController.filteraccessControl()
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "user" application component
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "session" application component
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "db" application component
+2013/07/01 00:59:29 [trace] [system.db.CDbConnection] Opening DB connection
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM dbsession WHERE expire<1372611569
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: 
+SELECT data FROM dbsession
+WHERE expire>1372611569 AND id=:id
+
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "securityManager" application component
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "cache" application component
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{sys_config}}" from cache
+in /home/wwwroot/travel/protected/models/SysConfig.php (19)
+in /home/wwwroot/travel/protected/components/Controller.php (50)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (6)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] SysConfig.findAll()
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_sys_config` `t`
+in /home/wwwroot/travel/protected/components/BaseActive.php (11)
+in /home/wwwroot/travel/protected/models/SysConfig.php (95)
+in /home/wwwroot/travel/protected/components/Controller.php (51)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "themeManager" application component
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (12)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "clientScript" application component
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{region}}" from cache
+in /home/wwwroot/travel/protected/models/Region.php (23)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (245)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (231)
+in /home/wwwroot/travel/protected/components/Controller.php (23)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] Region.find()
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_region` `t` WHERE INSTR(:region_name,region_name)>0 AND open=:open LIMIT 1
+in /home/wwwroot/travel/protected/extensions/ipconvert/IpConvert.php (248)
+in /home/wwwroot/travel/themes/default/views/main/header.php (47)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{advertising}}" from cache
+in /home/wwwroot/travel/protected/models/Advertising.php (21)
+in /home/wwwroot/travel/protected/components/Util.php (883)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] Advertising.find()
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_advertising` `t` WHERE type_id=:type_id AND FIND_IN_SET('284',region_id)>0 LIMIT 1
+in /home/wwwroot/travel/protected/components/Util.php (884)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Saving "Advertising_1_284" to cache
+in /home/wwwroot/travel/protected/components/Util.php (887)
+in /home/wwwroot/travel/themes/default/views/main/header.php (54)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/wwwroot/travel/themes/default/views/main/header.php (65)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{members}}" from cache
+in /home/wwwroot/travel/protected/components/widgets/default/views/web_menu.php (35)
+in /home/wwwroot/travel/protected/components/widgets/default/WebMenu.php (15)
+in /home/wwwroot/travel/themes/default/views/main/header.php (67)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.WebMenu_284..error/error404...." to cache
+in /home/wwwroot/travel/themes/default/views/main/header.php (68)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (20)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink}}" from cache
+in /home/wwwroot/travel/protected/models/Friendlink.php (25)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (6)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=travel:travel:{{friendlink_type}}" from cache
+in /home/wwwroot/travel/protected/models/FriendlinkType.php (20)
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (7)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] FriendlinkType.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink_type` `t`
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (15)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.db.ar.CActiveRecord] Friendlink.findAll()
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tr_friendlink` `t` WHERE t.friendlink_type=:friendlink_type ORDER BY t.friendlink_sort ASC
+in /home/wwwroot/travel/protected/components/widgets/default/FriendLinkWidget.php (17)
+in /home/wwwroot/travel/themes/default/views/main/footer.php (12)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+2013/07/01 00:59:29 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.FriendLinkWidget_284..error/error404...." to cache
+in /home/wwwroot/travel/themes/default/views/main/footer.php (13)
+in /home/wwwroot/travel/themes/default/views/layouts/main.php (28)
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+2013/07/01 00:59:29 [trace] [system.CModule] Loading "assetManager" application component
+in /home/wwwroot/travel/protected/components/BaseAction.php (18)
+in /home/wwwroot/travel/protected/controllers/error/Error404Action.php (10)
+in /home/wwwroot/travel/protected/components/BaseAction.php (12)
