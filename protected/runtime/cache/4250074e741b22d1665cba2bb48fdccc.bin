@@ -1,0 +1,57 @@
+a:2:{i:0;a:2:{i:0;s:3044:" <div class="flash_ad">
+                <div class="scroll_imgs"><!--scroll_imgs--> 
+
+                    <div id="idContainer2" class=conflash>
+                        <table id=idSlider2 border=0 cellSpacing=0 cellPadding=0>
+                            <TBODY>
+                                <tr>
+                                	                                    <td class=td_f><a title="立火旅行网上线了" href="http://www.lyyhome.com"><img height="307px" width="715px" src="/upload/flashad/1350445107.jpg" alt="立火旅行网上线了" /></a></td>
+                                   
+                                                                      <td class=td_f><a title="立火在线管理系统" href="http://www.lyyhome.com"><img height="307px" width="715px" src="/upload/flashad/1350447432.jpg" alt="立火在线管理系统" /></a></td>
+                                   
+                                                                      <td class=td_f><a title="注册立火旅行网会员" href="http://www.lyyhome.com/registe/registe/index"><img height="307px" width="715px" src="/upload/flashad/1350468029.jpg" alt="注册立火旅行网会员" /></a></td>
+                                   
+                                                                      <td class=td_f><a title="最新最全的导游和旅行社资讯" href="http://www.lyyhome.com"><img height="307px" width="715px" src="/upload/flashad/1350445882.jpg" alt="最新最全的导游和旅行社资讯" /></a></td>
+                                   
+                                                                  </tr>
+                            </TBODY>
+                        </table>
+                        
+                        <UL id=idNum class=num>
+                        </UL>
+                    </div>
+                </div>
+                <!--scroll_pic end--> 
+            </div>
+            <!--flash_ad end-->
+            		  		<!--content right end -->
+<script language="javascript">
+   jQuery(function(){
+  
+			
+			//new SlideTrans("idContainer", "idSlider", 3).Run();
+///////////////////////////////////////////////////////////
+var forEach = function(array, callback, thisObject){
+ if(array.forEach){
+  array.forEach(callback, thisObject);
+ }else{
+  for (var i = 0, len = array.length; i < len; i++) { callback.call(thisObject, array[i], i, array); }
+ }
+}
+var st = new SlideTrans("idContainer2", "idSlider2", 4, { Vertical: false });
+var nums = [];
+//插入数字
+for(var i = 0, n = st._count - 1; i <= n;){
+ (nums[i] = document.getElementById("idNum").appendChild(document.createElement("li"))).innerHTML = ++i;
+}
+forEach(nums, function(o, i){
+ o.onmouseover = function(){ o.className = "on"; st.Auto = false; st.Run(i); }
+ o.onmouseout = function(){ o.className = ""; st.Auto = true; st.Run(); }
+})
+//设置按钮样式
+st.onStart = function(){
+ forEach(nums, function(o, i){ o.className = st.Index == i ? "on" : ""; })
+}
+st.Run();
+ });
+</script> ";i:1;N;}i:1;N;}

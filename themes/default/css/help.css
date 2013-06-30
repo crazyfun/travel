@@ -1,0 +1,11 @@
+.help-main-right{ width:715px; float:right;text-align:left;}
+.help-main-left{ width:255px; float:left;text-align:left;}
+.help-nav-con{ border-bottom:3px solid #D8E3FF; background:#E9EFFF; padding-bottom:15px;}
+.help-title{ font-family:微软雅黑; height:30px; background:#79AEE2; color:#FFF; line-height:30px; font-size:14px; padding-left:15px; font-weight:bold;}
+.help-nav-con h2{ border-bottom:1px solid #D4E8EF; font-size:14px; font-family:微软雅黑; padding-left:22px; height:30px; line-height:30px; background:url(images/icon-line.gif) no-repeat 12px center;}
+.help-nav-con ul li a{ background: url(images/icon-dot.gif) no-repeat 20px center; color: #666; display: block; padding: 5px 0 5px 30px; text-decoration: none;}
+.help-nav-con ul li a:hover{ background:#79AEE2 url(images/app-re-arr.gif) no-repeat 225px center; color:#fff;}
+.help_r_con{ border:1px solid #C9D0D6;}
+.help_r_con h2{ font-weight:normal; position:relative; font-size:14px; height:30px; line-height:30px; padding-left:15px; background:#EFF2FB; font-family:微软雅黑;}
+.help_r_con h2 a{ font-size:12px; font-weight:normal; position:absolute; right:12px; top:0px;}
+.help_answer{ padding:12px; line-height:22px; color:#666;}

@@ -1,0 +1,163 @@
+   /*
+	 *发送批量删除的表单 
+	 * @param string action 表单的action
+	 * @return string 返回用户的权限值
+	 * @auther lxf
+	 * @version 1.0.0
+	 */
+	 function batch_operate(action){
+	 	var question=confirm("确认要进行该操作吗?");
+	 	if(question){  
+	 	  var submit_form=document.getElementById("lists-form");
+	 	  submit_form.action=action;
+	 	  submit_form.submit();
+	 	  return true;
+	 	}else{
+	 		return;
+	 	}
+	 	
+	}
+	 /*
+	 *ajax 删除一笔数据
+	 * @param string url ajax发送的连接
+	 * @param string model model的名字
+	 * @param string id  ajax附带的ID值
+	 * @auther lxf
+	 * @version 1.0.0
+	 */
+	function ajax_delete(url,model,id){
+		
+	 if(!url){
+			url="/shop.php/main/delete";
+		}
+		var submit = function (v, h, f) {
+    if (v == 'ok') {
+       jQuery.jBox.tip("正在删除数据...", 'loading');
+       jQuery.ajax({
+			  async:true,
+        type: "POST",
+        cache:true,
+        beforeSend:function(){},
+        url: url,
+        dataType:"json",
+        data: "model="+model+"&id="+id,
+        success: function(msg){
+          if(msg.flag=='1'){
+          	var delete_obj=jQuery("#delete_"+msg.datas.id);
+          	var parent_obj=delete_obj.parent().parent().parent();
+          	parent_obj.remove();
+          	jQuery.jBox.tip('删除成功。', 'success');
+          }else if(msg.flag=='2'){
+        	  jQuery.jBox.tip(msg.message, 'error');
+          }else{
+        	
+          }
+        }
+      });
+    }else if (v == 'cancel'){
+        // 取消
+    }
+    return true; //close
+};
+
+jQuery.jBox.confirm("确定要删除数据吗？", "提示", submit);
+}
+
+
+function set_user_permissions(user_id){
+	
+
+jQuery.jBox("iframe:/shop.php/user/permission?user_id="+user_id, {
+    title: "用户角色",
+    width: 450,
+    height: 220,
+    buttons: { '关闭': true }
+});
+}
+function frame_view(url,model,id){
+
+jQuery.jBox("iframe:"+url+"?model="+model+"&id="+id, {
+    title: "查看详细信息",
+    width: 1000,
+    height: 500,
+    buttons: { '关闭': true }
+});	
+}
+
+function small_frame_view(url,model,id){
+jQuery.jBox("iframe:"+url+"?model="+model+"&id="+id, {
+    title: "查看详细信息",
+    width: 800,
+    height: 300,
+    buttons: { '关闭': true }
+});	
+}
+function frame_relation(url,id){
+
+jQuery.jBox("iframe:"+url+"?relation_id="+id, {
+    title: "查看详细信息",
+    width: 1000,
+    height: 500,
+    buttons: { '关闭': true }
+});	
+}
+
+
+function excel_export(url,model,params){
+	
+	jQuery.jBox("iframe:"+url+"?model="+model+"&"+params, {
+    title: "excel导出",
+    width: 1000,
+    height: 500,
+    buttons: { '关闭': true }
+});
+}
+
+function excel_import(url,model){
+	jQuery.jBox("iframe:"+url+"?model="+model, {
+    title: "excel导入",
+    width: 1000,
+    height: 500,
+    buttons: { '关闭': true }
+});
+}
+
+function small_excel_export(url,model,params){
+	jQuery.jBox("iframe:"+url+"?model="+model+"&"+params, {
+    title: "excel导出",
+    width: 800,
+    height: 300,
+    buttons: { '关闭': true }
+});
+}
+
+function small_excel_import(url,model){
+	jQuery.jBox("iframe:"+url+"?model="+model, {
+    title: "excel导入",
+    width: 800,
+    height: 300,
+    buttons: { '关闭': true }
+});
+}
+
+function frame_tongji(url,params){
+	jQuery.jBox("iframe:"+url+"?"+params, {
+    title: "统计图",
+    width: 1000,
+    height: 500,
+    buttons: { '关闭': true }
+});
+}
+
+function frame_status(url,id){
+
+jQuery.jBox("iframe:"+url+"?&id="+id, {
+    title: "处理",
+    width: 1000,
+    height: 500,
+    draggable:true,
+    opacity:0,
+    buttons: { '关闭': true }
+});	
+}
+

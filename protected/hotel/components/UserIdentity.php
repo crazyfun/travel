@@ -1,0 +1,56 @@
+<?php
+
+/**
+ * UserIdentity represents the data needed to identity a user.
+ * It contains the authentication method that checks if the provided
+ * data can identity the user.
+ */
+class UserIdentity extends CUserIdentity
+{
+	/**
+	 * Authenticates a user.
+	 * The example implementation makes sure if the username and password
+	 * are both 'demo'.
+	 * In practical applications, this should be changed to authenticate
+	 * against some persistent user identity storage (e.g. database).
+	 * @return boolean whether authentication succeeds.
+	 */
+		private $_id;
+	  const ERROR_OPERATE=10;
+	  const ERROR_STATUS=11;
+	  const ERROR_USER_TYPE=12;
+    public function authenticate(){
+    	  $user=new User('AdminLogin');
+        $user_data=$user->with("Station")->find("(user_email=:user_email OR user_login=:user_email)",array(':user_email'=>$this->username));
+        $user_type=UserType::model();
+        $type_value=$user_type->get_user_type($user_data->id);
+        $user_salt=Util::createSalt($user_data->user_salt);
+        if($user_data===null){
+        	  
+            $this->errorCode=self::ERROR_USERNAME_INVALID;
+        }else if($user_data->user_password!=Util::hc($this->password,$user_salt)){ 		
+            $this->errorCode=self::ERROR_PASSWORD_INVALID;
+        }else{
+        	if($user_data->admin_status!='2'){
+        		$this->errorCode=self::ERROR_OPERATE;
+        	
+        	}else if(!empty($user_data->station_id)){
+        		if($user_data->Station->status!='2'){
+        			$this->errorCode=self::ERROR_STATUS;
+        		}else{
+        		     				
+        			  $this->_id=$user_data->id;
+             	  $this->errorCode=self::ERROR_NONE;
+        		}
+        	}else{
+        			  $this->errorCode=self::ERROR_USERNAME_INVALID;
+          }
+        }
+        return !$this->errorCode;
+    }
+    public function getId()
+    {
+        return $this->_id;
+    }
+
+}

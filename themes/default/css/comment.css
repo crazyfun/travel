@@ -1,0 +1,36 @@
+/*-------------comment----------------------*/
+#comments_datas{ padding-top:10px; border-top:1px solid #ccc; margin-top:10px;width:705px;overflow:hidden;height:auto;}
+.comment_item{font-size:12px;margin:10px 0 0 0;color:#555555;border-top: 1px dashed #CCCCCC;position:relative;padding-top:5px;}
+.comment_auther{float:left;}
+.comment_content{float:left;margin: 0 10px;padding-top: 10px;}
+.comment_logo{width:48px;height:48px;border:1px solid #D8D8D8;padding:1px 1px;}
+.comment_name{text-align:center;color:#008311;padding:5px 0;}
+.comment_center{text-indent:10px;padding:10px 0;}
+.comment_children{padding:10px 0 10px 50px;overflow:hidden;}
+.reply_content{text-align:right;position:relative;}
+.comment_bottom{text-align:right;padding-right:10px;}
+.comment_submit{margin:10px 0 0 0;text-align:right;}
+.comment_submit a{color:#ff6600;}
+
+
+
+.btn_reply{ position:relative; *left:1px;}
+.btn_reply_cliked{color:#ff6600;}
+.reply_form{text-align:center;position:relative;margin-top:10px;}
+.comments_datas{ padding-top:15px;}
+.add_reply{ background:#EBEFF7; border: 1px solid #D3D8E7; padding:15px 10px; text-align:left;}
+.post-area{ position:relative;}
+.post-area div{zoom:1;}
+.post-area textarea{ width:100%; border:1px solid #D1D1D1; height:52px; word-wrap: break-word;}
+.replay-bt{ width:85px; height:29px; background:url(images/btn_com.gif); border:none; color:#FFF; font-size:14px;}
+.comment_top_title{ color:#999;}
+
+
+.comment_login{display:inline-block;text-align:center;background:url(images/want_appbt.png) no-repeat; width:67px;height:19px;}
+a.comment_login{color:#ffffff;}
+a.comment_login:hover{color:#ffffff;}
+
+.comment_viewreply{display:inline-block;width:80px;height:25px;line-height:20px;text-align:center;}
+.comment_reply{display:inline-block;width:40px;height:25px;line-height:20px;text-align:center;}
+
+/*-------------  models end----------------------*/

@@ -1,0 +1,11 @@
+.print{width:595px;height:auto;padding:20px 0;margin:0px auto;line-height:20px;}
+p{padding:0;margin:0;}
+.print_table{width:100%;border-collapse: collapse; border-top: solid #555555 1px;border-left: solid #555555 1px;}
+.numbers_table,.numbers_table,.contacter_table{width:100%;border-collapse: collapse; border-top: solid #AAAAAA 1px;border-left: solid #AAAAAA 1px;}
+.print_table tr td{border-right: solid #555555 1px;border-bottom: solid #555555 1px;line-height:30px;}
+.print_name{padding:5px 5px;width:80px;text-align:left;font-weight:bold;color:#2e4c7e;}
+.print_content{padding:5px 5px;color:#222222;}
+.contacter_table th{border-right: solid #AAAAAA 1px;border-bottom: solid #AAAAAA 1px;color:#17267e;}
+.contacter_table tr td{border-right: solid #AAAAAA 1px;border-bottom: solid #AAAAAA 1px;padding:5px 5px;}
+.numbers_table th{border-right: solid #AAAAAA 1px;border-bottom: solid #AAAAAA 1px;color:#17267e;}
+.numbers_table tr td{border-right: solid #AAAAAA 1px;border-bottom: solid #AAAAAA 1px;padding:5px 5px;}

@@ -1,0 +1,30 @@
+.login_table{width:360px;text-align:left;margin-left:15px;}
+.pop{ width:624px;  margin:0px auto; padding:0px 5px 50px 5px;}
+.dl_conbor{ width:600px; padding:10px;}
+.ti_txt{ color:#EE7520; font-size:22px; font-family:"微软雅黑","宋体"; text-align:center; padding:18px;}
+.pop .con{ width:600px; }
+.pop .con .dl_left{ width:390px; border-right:1px solid #aaaaaa; float:left; background:none; margin:0px; height:auto;}
+.pop .con .dl_right{ width:175px; float:right; padding-left:30px; padding-top:8px; height:auto;}
+.pop .con .dl_right .txt{ color:#4C88C7; margin-bottom:10px; margin-top:10px;}
+.pop_ljzc{ padding-bottom:50px;}
+.pop_numcard{ text-align:left;}
+.usename{ width:218px; height:32px; padding-left:10px; background:url(images/login_txtbg.png); font-size:14px; line-height:32px; margin-bottom:16px;}
+.usename span{ margin-right:15px; color:#535353;}
+.usename input{ width:152px; height:25px; line-height:25px; border:none; background:none;}
+.login_sub{ padding:20px 0px 22px 0px; border-bottom:1px solid #e5e5e5;text-align:center;}
+.login_sub input{ width:99px; height:34px; background:url(images/login_btbg.png); border:none; margin-right:12px;}
+.login_sub a{ color:#EB6100; font-size:12px; position:relative; top:-8px\9;}
+.login_sub a:hover{ text-decoration:underline;}
+.forget_w{ color:#666;}
+.forget_w input{ vertical-align:middle; margin-right:3px;}
+.forget_w a{color:#666;}
+.forget_w a:hover{ text-decoration:underline;}
+.forget_w span{ margin-right:50px;}
+.prompt_se { font-size: 12px; color: #FF3300; text-align: center; text-decoration: none; padding-bottom: 4px;}
+.login_web_con{ width:980px; height:408px; background:url(images/login_con_bg.jpg) no-repeat;}
+.welcome_h2{ font-family:微软雅黑; font-size:25px; text-align:center; color:#fdfeb3; height:35px; line-height:35px; padding:40px 0px 45px 0px;}
+.web_infor_p{ color:#666; line-height:22px; text-indent:24px;}
+.get_imagecode{float:left;margin:10px 5px;position:relative;}
+.imagecode{position:absolute;padding-top:10px;left:0;top:10px;display:none;}
+
+.pop_login{height: 250px;margin: 70px auto;width: 375px;}

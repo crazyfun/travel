@@ -1,0 +1,38 @@
+a:2:{i:0;a:2:{i:0;s:1503:"<div class="linksbox"><!--友情链接-->
+    	<dl class="linksmain">
+        	<dt><!--链接类型-->
+            	  <strong>友情链接</strong>
+                <span class="linklabel">
+                				                <a class="flinktype_item linklabela_hover" href="javascript:void();" keys="14">旅游</a>
+			           			                <a class="flinktype_item " href="javascript:void();" keys="13">综合</a>
+			           	              </span>
+            </dt><!--结束 链接类型-->
+            
+            			                 <dd id="flink_14" class="flink_item" style='display:block;'>
+            	  					<ul>
+            	  						                					</ul>
+            					</dd>
+			       			                 <dd id="flink_13" class="flink_item" >
+            	  					<ul>
+            	  						                						     <li><a  href="http://www.allourweb.com" target="_blank" >网址大全</a></li>
+                					                  					</ul>
+            					</dd>
+			           
+    <div style="clear:both"></div>
+    </div>
+    
+    <script language="javascript">
+    	jQuery(function(){
+    		 jQuery(".flinktype_item").hover(function(){
+    		 	  var keys=jQuery(this).attr("keys");
+    		 	  jQuery(".linklabela_hover").removeClass("linklabela_hover");
+    		 	  jQuery(this).addClass("linklabela_hover");
+    		 	  jQuery(".flink_item").hide();
+    		 	  jQuery("#flink_"+keys).show();
+    		 	
+    		},function(){
+    			  
+    		});
+    		
+    	})
+    </script>";i:1;N;}i:1;N;}

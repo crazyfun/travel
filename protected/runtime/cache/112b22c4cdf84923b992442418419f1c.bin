@@ -1,0 +1,64 @@
+a:2:{i:0;a:2:{i:0;s:3856:"						<div class="left_menu">
+		  	 	 	  <ul class="nav">
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/site/index/diqu/284.html"><span class="nav-span"><span>首页</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/search/default/index/action/guide/diqu/284.html"><span class="nav-span"><span>导游</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/search/default/index/action/agency/diqu/284.html"><span class="nav-span"><span>旅行社</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/search/default/index/action/line/diqu/284.html"><span class="nav-span"><span>团队寻导</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/search/default/index/action/restaurant/diqu/284.html"><span class="nav-span"><span>酒店</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="" class="" href="/information/default/index/diqu/284.html"><span class="nav-span"><span>旅游资讯</span></span></a></li>
+		  	 	 	  			  	 	 	  	   	  <li><a target="_blank" class="" href="http://bbs.lyyhome.com"><span class="nav-span"><span>导游社区</span></span></a></li>
+		  	 	 	  			  	 	 	  
+		  	 	 	  </ul>
+		  	 	 	 </div>
+		  	 	 	 
+		  	 	 	 <div class="right_menu">
+		  	 	 	 	  <ul class="operate_nav">
+		  	 	 	 	  			  	 	 	 	  	<li class="pop_login_item">
+		  	 	 	 	  		  登录
+		  	 	 	 	  		  <div class="pop_nav_login">
+		  	 	 	 	  		  		<form methd="post" id="login-form" action="/login/login/homelogin/diqu/284.html" method="post">		  	 	 	 	  		  	 <div class="enter_item">
+		  	 	 	 	  		  	 	  <div class="enter_name">
+		  	 	 	 	  		  	 	  	账号：
+		  	 	 	 	  		  	 	  </div>
+		  	 	 	 	  		  	 	  <div class="enter_content">
+		  	 	 	 	  		  	 	  	<input class="text_short" id="user_login" type="text" value="" name="user_login" />		  	 	 	 	  		  	 	 
+		  	 	 	 	  		  	 	  </div>
+		  	 	 	 	  		  	 	</div>
+		  	 	 	 	  		  	 	
+		  	 	 	 	            <div class="enter_item">
+		  	 	 	 	  		  	 	  <div class="enter_name">
+		  	 	 	 	  		  	 	  	密码：
+		  	 	 	 	  		  	 	  </div>
+		  	 	 	 	  		  	 	  <div class="enter_content">
+		  	 	 	 	  		  	 	  	 <input class="text_short" id="user_password" type="password" value="" name="user_password" />		  	 	 	 	  		  	 	  </div>
+		  	 	 	 	  		  	 	</div>
+		  	 	 	 	  		  	 	<div class="clear_both"></div>
+		  	 	 	 	  		  	 	<div class="enter_item">
+		  	 	 	 	  		  	 		 <a href="/site/forgotpassword/diqu/284.html">忘记密码?</a>&nbsp;&nbsp;<input id="rememberme" separator="&amp;nbsp;" type="checkbox" value="1" name="rememberme" />记住密码&nbsp;&nbsp;<input type="submit" class="pop_submit" value="" name="login"/>
+		  	 	 	 	  		  	 	</div>
+		  	 	 	 	  		  	 	</form>		  	 	 	 	  		  </div>
+		  	 	 	 	  	</li>
+		  	 	 	  		<li class="operate_nav_item"><a href="/registe/registe/index/diqu/284.html">免费注册</a></li>
+		  	 	 	  				  	 	 	  				 
+		  	 	 	 	  </ul>
+		  	 	 	 </div>
+		  	 	 	 
+		  	 	 	 <script language="javascript">
+		  	 	 	 	  jQuery(function(){
+   	  						jQuery("ul.nav li").find("a").hover(
+									   function(){ jQuery(this).addClass("nav_item_hover")},
+										 function(){ jQuery(this).removeClass("nav_item_hover")}
+									);
+									toggleitem({'source':'pop_login_item','target':'pop_nav_login','type':'2','effect':'3','effect_time':'fast'});
+									toggleitem({'source':'pop_user_item','target':'pop_nav_user','type':'2','effect':'3','effect_time':'fast'});
+								})
+								
+								function show_search(){
+									var header_search=jQuery("#header_search");
+									if(header_search.css("display")=="block"){
+										header_search.fadeOut("fast");
+									}else{
+										header_search.fadeIn("fast");
+									}
+								}
+		  	 	 	 </script>";i:1;N;}i:1;N;}
